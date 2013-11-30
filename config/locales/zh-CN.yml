@@ -1,0 +1,32 @@
+zh-CN:
+  sessions:
+    new:
+      email: "电子邮箱"
+      password: "密码"
+  activerecord:
+    attributes:
+      user:
+        email: "电子邮箱"
+        name: "用户名"
+        password: "密码"
+        confirmation: "请再次输入"
+      session:
+        email: "tttt"
+        password: "tttt"
+    errors:
+      models:
+        user:
+          attributes:
+            email:
+              blank: "不能为空"
+            password:
+              confirmation: "密码不匹配"
+              too_short: "最短%{count}个字符"
+            password_digest:
+              blank: "不能为空"
+            name:
+              blank: "请添加用户名"
+              taken: "已占用"
+  will_paginate:
+    previous_label: "上一页"
+    next_label: "下一页"
